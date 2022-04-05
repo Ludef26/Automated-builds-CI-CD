@@ -38,5 +38,5 @@ jobs:
         with: 
           tag: $
           artifacts: "release.zip"
-          tokens: $
+          token: $
 
