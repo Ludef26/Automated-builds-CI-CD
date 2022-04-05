@@ -36,8 +36,7 @@ jobs:
       - name: Create Release
         uses: ncipollo/release-action@v1.10.0
         with: 
-          tag: ${{ startswith(github.ref, 'refs/tags/') }}
+          tag: $
           artifacts: "release.zip"
-          tokens: ${{secrets.GITHUB_TOKEN }}
-        
+          tokens: $
 
