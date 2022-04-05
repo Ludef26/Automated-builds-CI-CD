@@ -38,6 +38,6 @@ jobs:
         with: 
           tag: ${{ startswith(github.ref, 'refs/tags/') }}
           artifacts: "release.zip"
-          tokens: ${{secrets.GITHUB_TOKEN ]]
+          tokens: ${{secrets.GITHUB_TOKEN }}
         
 
