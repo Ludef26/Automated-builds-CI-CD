@@ -2,7 +2,9 @@
 
 ## Automated Builds
 
-[Image](https://img.mandic.com.br/blog/2017/07/devopsloop-554x300.png)
+
+
+![](https://github.com/Ludef26/Automated-builds-CI-CD/blob/main/Docs/Images/CI-CD.png)
 
 ## What is CI?
 
