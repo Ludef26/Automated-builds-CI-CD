@@ -30,4 +30,22 @@ There are several reasons to use CI and CD tools, here are some of them:
 
 * Ensure that the product is uploaded correctly.
 
-* 
+* Minimize tasks.
+
+* Have an ordered history of the releases made to correct any errors.
+
+## Guide of github action
+
+### Workflows
+
+Developers can use different workflows depending on their needs. For example, whenever there is an error, an issue will have to be made, this issue will be assigned to a contributor to fix it, when it is fixed they should make a pull request and check that everything is correct. But this is where Github Actions and its workflows come in, since they allow us to do some of these processes automatically without needing our attention, such as checking if the bug has been fixed.
+
+### Jobs 
+
+Jobs are the first thing described in a workflow, they can work in parallel or sequentially, depending on whether we establish a job order.
+
+### Steps 
+
+The steps are the last element of the workflows and are inside the jobs. Inside are the actions and commands, this is where we can modify exactly what we want our workflow to do.
+
+![](https://github.com/Ludef26/Automated-builds-CI-CD/blob/main/Docs/Images/Github-Actions.png)
