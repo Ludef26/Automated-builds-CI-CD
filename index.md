@@ -49,3 +49,45 @@ Jobs are the first thing described in a workflow, they can work in parallel or s
 The steps are the last element of the workflows and are inside the jobs. Inside are the actions and commands, this is where we can modify exactly what we want our workflow to do.
 
 ![](https://github.com/Ludef26/Automated-builds-CI-CD/blob/main/Docs/Images/Github-Actions.png)
+
+## Using Github Actions
+
+### Step 1 
+
+To start we will have to create our repository and click indicated in the photo.
+![](https://github.com/Ludef26/Automated-builds-CI-CD/blob/main/Docs/Images/step-1.png)
+
+### Step 2
+
+In this menu we can find many workflows for our project, both CI and CD, we will choose the one that best suits what we need.
+![](https://github.com/Ludef26/Automated-builds-CI-CD/blob/main/Docs/Images/step-2.png)
+
+### Step 3
+
+When we choose a workflow, the menu will appear with all the phases explained above.
+![](https://github.com/Ludef26/Automated-builds-CI-CD/blob/main/Docs/Images/step-3.png)
+
+### Step 4
+
+When we have finished modifying our workflow, we will only have to make a commit, depending on the workflow, it will start working as soon as we commit.
+![](https://github.com/Ludef26/Automated-builds-CI-CD/blob/main/Docs/Images/step-4.png)
+
+### Step 5
+
+Finally, if we click again on the "Actions" menu, the workflows menu will no longer appear, but we will have available the information on the state of the workflow that is currently working.
+
+![](https://github.com/Ludef26/Automated-builds-CI-CD/blob/main/Docs/Images/step-5.png)
+
+### EXTRA
+
+As an extra contribution, we can deactivate the notifications that will go directly to our email to notify us if there has been any problem in the execution of the workflow by clicking on this button.
+![](https://github.com/Ludef26/Automated-builds-CI-CD/blob/main/Docs/Images/notifications.png)
+
+## Automatic Releases
+
+As the last concept that I want to explain, I will show you a workflow to understand how to do automatic releases. To start you must do what was explained above, only if you have completed the previous steps can you continue with the explanation.
+
+
+To achieve this workflow we will have to use two premade github actions in the github marketplace: [zip release](https://github.com/marketplace/actions/zip-release) and [create release](https://github.com/marketplace/actions/create-release). Thanks to these two steps, we can create a release by customizing its name and excluding or adding the files we want.
+
+![](https://github.com/Ludef26/Automated-builds-CI-CD/blob/main/Docs/Images/release_zip.png)
